@@ -1,8 +1,8 @@
-/advancedRest/*zip
-/advancedRest/__pycache__/
-/intermediateRest/*zip
-/intermediateRest/venv/
-/intermediateRest/__pycache__/
+/advancedREST/*zip
+/advancedREST/__pycache__/
+/intermediateREST/*zip
+/intermediateREST/venv/
+/intermediateREST/__pycache__/
 /moreAuth/__pycache__/
 /moreAuth/*zip
 /OAuth2Implementation/client_secret.json
