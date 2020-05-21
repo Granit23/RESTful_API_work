@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <title>OAuth2 Example</title>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <h1>User Info</h1>
+  <table>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>State Variable</th>
+    </tr>
+    <tr>
+      <td>{{data[0]}}</td>
+      <td>{{data[1]}}</td>
+      <td>{{data[2]}}</td>
+    </tr>
+  </table> 
+
+  <!-- <a href="http://localhost:5000/">Welcome Page</a> -->
+  <a href="https://arifig-osu-hw6.ue.r.appspot.com">Welcome Page</a>
+
+</body>
+</html>
